@@ -1,0 +1,27 @@
+{
+	"name": "Hulu Shuffle Button",
+	"version": "1.0",
+	"description": "A shuffle button for Hulu TV shows",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"manifest_version": 2,
+	"default_locale": "en",
+	"page_action": {
+		"default_icon": {
+			"16": "images/icon_16.png",
+			"24": "images/icon_24.png",
+			"32": "images/icon_32.png"
+		},
+		"default_title": "Hulu Shuffle Button"
+	},
+	"permissions" : [
+		"declarativeContent",
+		"tabs"
+	],
+	"icons": {
+		"48": "images/icon_48.png",
+		"128": "images/icon_128.png"
+	}
+}
